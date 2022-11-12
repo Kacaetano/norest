@@ -1,0 +1,73 @@
+body {
+    color: black;
+    font-family: 'Corno';
+    background-color: #f1f2e4;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+a {
+    color: black;
+    text-decoration:none ;
+}
+
+a img{
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+header figure img{
+    width: 300px;
+    height: 100px;
+    border: 2px;
+    border-color: black;
+}
+  .logo{
+    text-align: center ;
+  }
+@font-face {
+        font-family: 'Blank';
+        src: url('../fonts/Blank\ River.ttf') format('opentype'), url('../fonts/Blank\ River.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+@font-face {
+    font-family: 'Corno' ;
+    src: url('../norest/fonts/KGCorneroftheSky.ttf') format('opentype'), url('../norest/fonts/KGCorneroftheSky.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ h1 {
+    
+    color: rgb(255, 78, 78);
+    font-family: 'Blank', Times, serif ;
+    
+ }
+ footer img {
+    width: 40px;
+    height: 40px;
+   
+ }
+footer a{
+     display: flex;
+    justify-content: center;
+}
+
+figure section .fotor{
+    width: 30px;
+    height: 30px;
+    display: block;
+    bottom: 0%;
+}
+
+ 
